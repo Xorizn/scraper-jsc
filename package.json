@@ -1,0 +1,41 @@
+{
+  "name": "scraper-jsc",
+  "version": "0.0.3",
+  "description": "Node Scraper With javaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xorizn/scraper-jsc"
+  },
+  "bugs": {
+    "url": "https://github.com/Xorizn/scraper-jsc/issues"
+  },
+  "homepage": "https://github.com/Xorizn/scraper-jsc",
+  "keywords": [
+    "simple",
+    "api",
+    "rest",
+    "api",
+    "scraper",
+    "y2mate",
+    "nsfw",
+    "sfw"
+  ],
+  "author": "Xorizn",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.12",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "g-i-s": "^2.1.6",
+    "google-it": "^1.6.4",
+    "jsdom": "^22.0.0",
+    "node-fetch": "^2.6.7",
+    "usetube": "^2.2.7",
+    "yt-search": "^2.10.4"
+  }
+}

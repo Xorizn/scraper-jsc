@@ -20,8 +20,11 @@ Available methods:
 - [Search](#search): A scraper website search is a type of search engine that operates by automatically gathering information from other websites, typically without permission.
 - [Islamic](#islamic): A scraper website for Islamic content, such as Surah and Jadwal Sholat, can be built using JavaScript ES Modules.
 - [Images](#images): A scraper image downloads tool is a program that can automatically download images from various websites, similar to the functionality of Pinterest.
+- [Random](#random): This API searches for data from a random website and converts it into a JSON format that can be accessed online or offline. An example of this would be using the API to search for images from the website Waifu Pics.
+- [Stalker](#stalk): Get social media information from the person you are looking for, but please use it wisely and do not harm others. This stalking tool has various features, such as Instagram and GitHub, and will be further developed.
+- [Anime](#anime): This function is useful for finding the anime you are looking for. The API is sourced from the website MyAnimeList. This feature is great for people who are new to anime or are fans of anime culture.
 
-
+---
 ## Downloads
 A scraper for downloading videos and audio, such as those used for YouTube and TikTok, is a type of software or website that enables users to download content from various online platforms. These scrapers work by accessing the source code of the web page hosting the content and extracting the relevant video or audio files. Users can then download these files for offline viewing or listening. While scraper tools can be useful for users who want to save online content for later viewing, they may also infringe on the copyright and intellectual property rights of the content creators. It's important for users to use scraper tools responsibly and to respect the rights of content creators by only downloading content that they have permission to access and use.
 
@@ -77,7 +80,7 @@ var res = await downloads.Ytv(url_youtube); //to download youtube video
 
 console.log(res)
 ```
-
+---
 ## News
 Scraper news websites, like CNBC and CNN, are online platforms that aggregate news content from various sources to provide users with a comprehensive view of the news. These websites typically use software programs to automatically gather articles and news stories from a range of sources, including other news websites, wire services, and social media platforms. They then present this content to users in a user-friendly format that makes it easy to browse and navigate. While scraper news websites can provide users with access to a broad range of news content quickly, they may also raise concerns about the accuracy and reliability of the information they provide. It's important for users to be discerning when using scraper news websites and to verify the accuracy of the information they find.
 
@@ -164,7 +167,7 @@ var res = await news.TixID();
 
 console.log(res)
 ```
-
+---
 ## Search
 A scraper website search is a type of search engine that operates by automatically gathering information from other websites, typically without permission. These scraper websites use software programs to extract data from other websites and compile it into a searchable database. While scraper websites can provide users with access to a large amount of information quickly, they can also raise ethical and legal concerns, as they may be infringing on the intellectual property rights of other websites and their owners. In some cases, scraper websites may also misrepresent the information they gather, leading to inaccuracies and errors in search results.
 
@@ -252,7 +255,7 @@ var res = await search.YtSearch(search);
 
 console.log(res)
 ```
-
+---
 ## Islamic
 
 A scraper website for Islamic content, such as Surah and Jadwal Sholat, can be built using JavaScript ES Modules. ES Modules is a feature in modern JavaScript that allows developers to organize their code into reusable modules, making it easier to build large-scale applications.
@@ -333,7 +336,7 @@ console.log(res);
   }
 }*/
 ```
-
+---
 ## Images
 A scraper image downloads tool is a program that can automatically download images from various websites, similar to the functionality of Pinterest. This tool can be used to collect images for personal or professional use, such as for inspiration, design projects, or social media content creation.
 
@@ -343,7 +346,7 @@ Example:
 ```js
 import { images } from 'scraper-jsc' //import scraper-jsc
 
-const res = await images.Pinterest('anime'); //error message
+const res = await images.Pinterest('anime'); //result function
 console.log(res);
 ```
 
@@ -393,8 +396,220 @@ var res = await images.WallpaperFlare('anime')
 
 console.log(res)
 ```
+---
+## Random
+This API searches for data from a random website and converts it into a JSON format that can be accessed online or offline. An example of this would be using the API to search for images from the website Waifu Pics.
 
-##
-RANDOM
-STALK
-ANIME
+It's important to note that when using this API, it's crucial to respect the terms and conditions of the website being scraped and to ensure that the data being extracted is being used ethically and legally.
+
+Example:
+
+```js
+import { random } from 'scraper-jsc'  //import scraper-jsc
+
+//Type params: ['nfw', 'nsfw']
+const res = await random.Waifu('sfw') //result function
+console.log(res)
+```
+
+Results:
+
+```js
+{
+  developer: '@Xorizn',
+  status: true,
+  result: [
+    'https://i.waifu.pics/gnpc_Lr.jpeg',
+    'https://i.waifu.pics/8hqFjfL.png',
+    'https://i.waifu.pics/q7xF_wS.png',
+    'https://i.waifu.pics/n6U5SHh.png',
+    'https://i.waifu.pics/AoPMBb_.jpeg',
+    'https://i.waifu.pics/P6X-ph6.jpg',
+    'https://i.waifu.pics/II9WeHB.png',
+    'https://i.waifu.pics/CxL~Tbz.jpg',
+    'https://i.waifu.pics/_NBeyLj.png',
+    'https://i.waifu.pics/GLGHJqM.jpg',
+    'https://i.waifu.pics/9e8~~fj.png',
+    'https://i.waifu.pics/rUfJc7w.jpg',
+    'https://i.waifu.pics/xUB0UNx.jpg',
+    'https://i.waifu.pics/tZifc8D.png',
+    'https://i.waifu.pics/4Ni15Gm.jpg',
+    'https://i.waifu.pics/KcrOIYV.jpg',
+    'https://i.waifu.pics/HHquLhX.png',
+    'https://i.waifu.pics/p3pJCrJ.jpg',
+    'https://i.waifu.pics/bMH6oaI.png',
+    'https://i.waifu.pics/aD7t0Bc.jpg',
+    'https://i.waifu.pics/LhA7EZ9.jpg',
+    'https://i.waifu.pics/~p5W9~k.png',
+    'https://i.waifu.pics/I15h0iO.jpg',
+    'https://i.waifu.pics/O4gqsyo.jpg',
+    'https://i.waifu.pics/P817hp4.jpg',
+    'https://i.waifu.pics/mJkPaVR.png',
+    'https://i.waifu.pics/ynInTFV.jpg',
+    'https://i.waifu.pics/R5n5P7f.png',
+    'https://i.waifu.pics/MHrvoGY.jpg',
+    'https://i.waifu.pics/RBGn36s.jpeg'
+  ]
+}
+```
+
+Other:
+
+```js
+import { random } from 'scraper-jsc'  //import scraper-jsc
+
+//Category params: ['waifu', 'neko', 'trap', 'blowjob']
+var res = await random.Nsfw('waifu') //res
+
+//Category params: ['waifu', 'neko', 'shinobu', 'megumin', 'bully', 'cuddle', 'cry', 'hug', 'awoo', 'kiss', 'lick', 'pat', 'smug', 'bonk', 'yeet', 'blush', 'smile', 'wave', 'highfive', 'handhold', 'nom', 'bite', 'glomp', 'slap', 'kill', 'kick', 'happy', 'wink', 'poke', 'dance', 'cringe']
+var res = await random.Sfw('waifu') //res
+
+//no param
+var res = await random.Hentai();
+var res = await random.QuotesAnime();
+
+console.log(res)
+```
+---
+## Stalk
+Get social media information from the person you are looking for, but please use it wisely and do not harm others. This stalking tool has various features, such as Instagram and GitHub, and will be further developed.
+
+Example:
+
+```js
+import { stalk } from 'scraper-jsc'  //import scraper-jsc
+
+const res = await stalk.Github("xorizn"); //result function
+console.log(res)
+```
+
+Results:
+
+```js
+{
+  developer: '@Xorizn',
+  status: true,
+  result: {
+    user: {
+      login: 'Xorizn',
+      id: 86514883,
+      node_id: 'MDQ6VXNlcjg2NTE0ODgz',
+      avatar_url: 'https://avatars.githubusercontent.com/u/86514883?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Xorizn',
+      html_url: 'https://github.com/Xorizn',
+      followers_url: 'https://api.github.com/users/Xorizn/followers',
+      following_url: 'https://api.github.com/users/Xorizn/following{/other_user}',
+      gists_url: 'https://api.github.com/users/Xorizn/gists{/gist_id}',
+      starred_url: 'https://api.github.com/users/Xorizn/starred{/owner}{/repo}',
+      subscriptions_url: 'https://api.github.com/users/Xorizn/subscriptions',
+      organizations_url: 'https://api.github.com/users/Xorizn/orgs',
+      repos_url: 'https://api.github.com/users/Xorizn/repos',
+      events_url: 'https://api.github.com/users/Xorizn/events{/privacy}',
+      received_events_url: 'https://api.github.com/users/Xorizn/received_events',
+      type: 'User',
+      site_admin: false,
+      name: 'Bala Krishna',
+      company: 'Denpasar',
+      blog: 'https://xorizn.vercel.app',
+      location: 'Bali, Indonesia',
+      email: null,
+      hireable: null,
+      bio: 'follow me to get updated repos',
+      twitter_username: null,
+      public_repos: 11,
+      public_gists: 0,
+      followers: 47,
+      following: 1,
+      created_at: '2021-06-26T08:58:12Z',
+      updated_at: '2023-05-01T14:36:45Z'
+    }
+  }
+}
+```
+
+Other:
+
+```js
+import { stalk } from 'scraper-jsc'  //import scraper-jsc
+
+//Params type: ['profile', 'story', 'post', 'highlights', 'cash']
+var res = await stalk.instagram("story", "username"); // (type, user_ig)
+
+var res = await stalk.GithubRepo("username")
+
+console.log(res)
+```
+---
+## Anime
+This function is useful for finding the anime you are looking for. The API is sourced from the website MyAnimeList. This feature is great for people who are new to anime or are fans of anime culture.
+
+Example:
+
+```js
+import { anime } from 'scraper-jsc'  //import scraper-jsc
+
+//Type Params: ['airing', 'upcoming', 'tv', 'movie', 'ova', 'ona', 'special', 'bypopularity', 'favorite'];
+const res = await anime.MalTop("airing");
+console.log(res)
+```
+
+Results:
+
+```js
+{
+  developer: '@Xorizn',
+  status: true,
+  result: [
+    {
+      rank: '1',
+      thumbnail: 'https://cdn.myanimelist.net/r/50x70/images/anime/1279/131078.jpg?s=d6d04a0dcc347ba55e0243b75b0ad5dd',
+      title: 'Shingeki no Kyojin: The Final Season - Kanketsu-hen',
+      score: '9.07',
+      link: 'https://myanimelist.net/anime/51535/Shingeki_no_Kyojin__The_Final_Season_-_Kanketsu-hen'
+    },
+    {
+      rank: '2',
+      thumbnail: 'https://cdn.myanimelist.net/r/50x70/images/anime/1812/134736.jpg?s=01b78ed332b657214ffb3bae89bdcd31',
+      title: '"Oshi no Ko"',
+      score: '9.04',
+      link: 'https://myanimelist.net/anime/52034/Oshi_no_Ko'
+    },
+    {
+      rank: '3',
+      thumbnail: 'https://cdn.myanimelist.net/r/50x70/images/anime/1170/124312.jpg?s=ea717ad18c8bf0f21078491e981e97a1',
+      title: 'Vinland Saga Season 2',
+      score: '8.70',
+      link: 'https://myanimelist.net/anime/49387/Vinland_Saga_Season_2'
+    },
+    ...
+  ]
+}
+```
+
+Other:
+
+```js
+import { anime } from 'scraper-jsc'  //import scraper-jsc
+
+//param search
+var res = await anime.MalSearchAnime('naruto');
+var res = await anime.MalSearchCharacter('naruto');
+var res = await anime.MalSearchManga('naruto');
+
+console.log(res);
+```
+---
+# Create By ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<table>
+  <tr>
+    <td align="center"><a href="https://xorizn.vercel.app"><img src="https://avatars.githubusercontent.com/u/86514883?v=4" width="100px;" alt=""/><br /><sub><b>I Putu Bala Krishna Dasa</b></sub></a><br /><a href="https://github.com/satyawikananda/berita-indo-api/commits?author=satyawikananda" title="Code">💻</a> <a href="#maintenance-satyawikananda" title="Maintenance">🚧</a> <a href="https://github.com/satyawikananda/berita-indo-api/issues?q=author%3Asatyawikananda" title="Bug reports">🐛</a> <a href="#ideas-satyawikananda" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/satyawikananda/berita-indo-api/commits?author=satyawikananda" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+---
+
+Powered by Typescipt and vercel. Code licensed under [GNU License](https://raw.githubusercontent.com/Xorizn/scraper-jsc/master/LICENSE).

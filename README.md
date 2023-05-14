@@ -18,6 +18,8 @@ Available methods:
 - [Downloads](#downloads): A scraper for downloading videos and audio
 - [News](#news): Scraper news websites, like CNBC and CNN, are online platforms that aggregate news content from various sources to provide users with a comprehensive view of the news.
 - [Search](#search): A scraper website search is a type of search engine that operates by automatically gathering information from other websites, typically without permission.
+- [Islamic](#islamic): A scraper website for Islamic content, such as Surah and Jadwal Sholat, can be built using JavaScript ES Modules.
+- [Images](#images): A scraper image downloads tool is a program that can automatically download images from various websites, similar to the functionality of Pinterest.
 
 
 ## Downloads
@@ -33,8 +35,7 @@ Example:
 ```javascript
 import { downloads } from 'scraper-jsc' //import scraper jsc
 
-const res = await downloads.TikTok("https://vt.tiktok.com/ZS8op3wp1/");
-if (res.mess) return console.log(res.mess) //error message
+const res = await downloads.TikTok("https://vt.tiktok.com/ZS8op3wp1/"); //result function
 console.log(res)
 ```
 Results:
@@ -74,7 +75,6 @@ var res = await downloads.SoundCloude(search_song); //to download and play sound
 var res = await downloads.Twitter(url_twit); //to download twitter video
 var res = await downloads.Ytv(url_youtube); //to download youtube video
 
-//if (res.mess) return console.log(res.mess) //error message
 console.log(res)
 ```
 
@@ -86,8 +86,7 @@ Example:
 ```javascript
 import { news } from 'scraper-jsc' //import scraper jsc
 
-const res = await news.Gempa()
-if (res.mess) return console.log(res.mess) //error message
+const res = await news.Gempa() //result function
 console.log(res)
 ```
 Results:
@@ -163,7 +162,6 @@ var res = await news.KompasTerpopuler();
 var res = await news.RumahKeadilan();
 var res = await news.TixID();
 
-//if (res.mess) return console.log(res.mess) //error message
 console.log(res)
 ```
 
@@ -175,8 +173,7 @@ Example:
 ```javascript
 import { search } from 'scraper-jsc' //import scraper-jsc
 
-const res = await search.PlayStore('ff');
-if (res.mess) return console.log(res.mess) //error message
+const res = await search.PlayStore('ff'); //result function
 console.log(res)
 ```
 Results:
@@ -253,6 +250,151 @@ var res = await search.WikiMedia(search);
 var res = await search.XPanas(search);
 var res = await search.YtSearch(search);
 
-//if (res.mess) return console.log(res.mess) //error message
 console.log(res)
 ```
+
+## Islamic
+
+A scraper website for Islamic content, such as Surah and Jadwal Sholat, can be built using JavaScript ES Modules. ES Modules is a feature in modern JavaScript that allows developers to organize their code into reusable modules, making it easier to build large-scale applications.
+
+With the power of JavaScript and ES Modules, developers can build scraper websites for Islamic content that provide users with a wealth of information and resources related to their faith. It's important to use these scraper websites responsibly and respect the intellectual property rights of the sources from which they extract information.
+
+Example:
+
+```js
+import { islam } from 'scraper-jsc' //import scraper-jsc
+
+//param numbers
+const res = await islam.JadwalSholat(10); //result function
+console.log(res);
+```
+
+Results:
+
+```js
+{
+  developer: '@Xorizn',
+  status: true,
+  result: [
+    {
+      tanggal: '01 Mei 2023',
+      imsak: '4:26',
+      subuh: '4:36',
+      zuhur: '11:53',
+      ashar: '15:14',
+      maghrib: '17:50',
+      isya: '19:00'
+    },
+    {
+      tanggal: '02 Mei 2023',
+      imsak: '4:26',
+      subuh: '4:36',
+      zuhur: '11:53',
+      ashar: '15:14',
+      maghrib: '17:50',
+      isya: '19:00'
+    },
+    {
+      tanggal: '03 Mei 2023',
+      imsak: '4:26',
+      subuh: '4:36',
+      zuhur: '11:53',
+      ashar: '15:14',
+      maghrib: '17:49',
+      isya: '19:00'
+    },
+    ...
+  ]
+}
+```
+
+Other:
+
+```js
+import { islam } from 'scraper-jsc' //import scraper-jsc
+
+//param numbers
+const res = await islam.Surah(10); //result function
+console.log(res);
+/*{
+  developer: '@Xorizn',
+  status: true,
+  result: {
+    audio: 'https://kalam.sindonews.com/audioframe/10/yunus',
+    surah: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}*/
+```
+
+## Images
+A scraper image downloads tool is a program that can automatically download images from various websites, similar to the functionality of Pinterest. This tool can be used to collect images for personal or professional use, such as for inspiration, design projects, or social media content creation.
+
+
+Example:
+
+```js
+import { images } from 'scraper-jsc' //import scraper-jsc
+
+const res = await images.Pinterest('anime'); //error message
+console.log(res);
+```
+
+Results:
+
+```js
+{
+  developer: '@Xorizn',
+  status: true,
+  result: [
+    'https://i.pinimg.com/736x/66/14/8c/66148c387887ef0a822f1afdd5444581.jpg',
+    'https://i.pinimg.com/736x/fc/0f/96/fc0f96b1c7bf364ccb69c73908d857cc.jpg',
+    'https://i.pinimg.com/736x/1a/84/35/1a8435b262f70dc441a52bf15a9c620d.jpg',
+    'https://i.pinimg.com/736x/12/41/7b/12417b5cfabdeffcb0c55231aca15387.jpg',
+    'https://i.pinimg.com/736x/ca/3f/c5/ca3fc591a26c92cb1b686f8f93515e61.jpg',
+    'https://i.pinimg.com/736x/3d/84/84/3d8484194b7e078b65449f81f89bc317.jpg',
+    'https://i.pinimg.com/736x/9e/bd/21/9ebd219117041ea6a1428bac9fb9ebeb.jpg',
+    'https://i.pinimg.com/736x/9b/0c/91/9b0c91ac56876c62813b6b3d16572de6.jpg',
+    'https://i.pinimg.com/736x/2b/33/58/2b3358a7255ae7220bfb8dd9a69b5668.jpg',
+    'https://i.pinimg.com/736x/ef/3e/70/ef3e704c0e5d94dba0ec3d53a7080565.jpg',
+    'https://i.pinimg.com/736x/c0/37/c3/c037c3126d2a9eec910a8724aed0e8fa.jpg',
+    'https://i.pinimg.com/736x/ee/41/50/ee4150a15059069ff949ae73f7655d53.jpg',
+    'https://i.pinimg.com/736x/c7/fc/02/c7fc024e26408398134fd20021148cd3.jpg',
+    'https://i.pinimg.com/736x/4c/a5/fe/4ca5fefc1f6db5054730750b4b5c33e8.jpg',
+    'https://i.pinimg.com/736x/6d/50/9d/6d509d329b23502e4f4579cbad5f3d7f.jpg',
+    'https://i.pinimg.com/736x/fb/21/40/fb214046d14927262e3310ad25cb8beb.jpg',
+    'https://i.pinimg.com/736x/77/44/94/774494f5a42d28850f7d6078fb34a0b0.jpg',
+    'https://i.pinimg.com/736x/4a/fe/31/4afe31b113d6dcfdcd1ebe2783b57421.jpg',
+    'https://i.pinimg.com/736x/92/e8/b1/92e8b19df6916a3638dc6a38ecd74998.jpg',
+    'https://i.pinimg.com/736x/d0/a0/de/d0a0deef90f37d4fc2a58cf538594f9e.jpg',
+    'https://i.pinimg.com/736x/ab/eb/55/abeb55bd1976f05fb6679ff22f25b166.jpg',
+    'https://i.pinimg.com/736x/85/96/01/8596013c5c781549d59aa865ef222227.jpg',
+    'https://i.pinimg.com/736x/d5/88/6c/d5886c3a4c7d158b5f83904493edc28f.jpg',
+    'https://i.pinimg.com/736x/99/00/69/990069583b3d0bf5d62fe7152a001eb4.jpg',
+    'https://i.pinimg.com/736x/a7/63/11/a76311bbf9049d6a2be7f482c0a34461.jpg'
+  ]
+}
+```
+
+Other: 
+
+```js
+import { images } from 'scraper-jsc' //import scraper-jsc
+
+var res = await images.Wallpaper('anime')
+var res = await images.WallpaperFlare('anime')
+
+console.log(res)
+```
+
+##
+RANDOM
+STALK
+ANIME

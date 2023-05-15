@@ -9,8 +9,21 @@ Node.js module to scrape web data using EsModule and TSC.
 * [xorizn-search](https://github.com/Xorizn/xorizn-search): a scraper web with exspress module and use CommonJs.
 
 ## Installation
+If you want to add this project on your own computer, you can install it by following the method below
+
+1. clone this repository
+```
+git clone https://github.com/Xorizn/scraper-jsc
+```
+2. Install dependencies
+
+In my case, i'm using npm for package manager, you can adjust with your favorite package manager
 ```
 npm install scraper-jsc
+```
+Or you can add this module with this github repository
+```
+npm i github:Xorizn/scraper-jsc
 ```
 
 ## Usage

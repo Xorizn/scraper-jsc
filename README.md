@@ -622,8 +622,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://xorizn.vercel.app"><img src="https://avatars.githubusercontent.com/u/86514883?v=4" width="100px;" alt=""/><br /><sub><b>I Putu Bala Krishna Dasa</b></sub></a><br /><a href="https://github.com/satyawikananda/berita-indo-api/commits?author=satyawikananda" title="Code">💻</a> <a href="#maintenance-satyawikananda" title="Maintenance">🚧</a> <a href="https://github.com/satyawikananda/berita-indo-api/issues?q=author%3Asatyawikananda" title="Bug reports">🐛</a> <a href="#ideas-satyawikananda" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/satyawikananda/berita-indo-api/commits?author=satyawikananda" title="Documentation">📖</a></td>
   </tr> 
+  <td align="center"><a href="https://xorizn.vercel.app"><img src="https://socialify.git.ci/Xorizn/scraper-jsc/image?description=1&descriptionEditable=This%20is%20a%20scraper%20API%20that%20I%20made%20myself.%20You%20can%20use%20it%20by%20entering%20the%20Vercel%20link%20above%20and%20then%20just%20use%20it.%20Below%20there%20is%20an%20example%20of%20how%20to%20use%20this%20API.&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FXorizn%2FXorizn%2Fmain%2Fimage%2Fvercel.svg&name=1&owner=1&pattern=Formal%20Invitation&pulls=1&stargazers=1&theme=Light" width="100px;" alt=""/><br /><sub><b>Project</b></sub></a><br /><a href="https://github.com/satyawikananda/berita-indo-api/commits?author=satyawikananda" title="Code"></td>
+  </tr> 
 </table>
-<img src="https://socialify.git.ci/Xorizn/scraper-jsc/image?description=1&descriptionEditable=This%20is%20a%20scraper%20API%20that%20I%20made%20myself.%20You%20can%20use%20it%20by%20entering%20the%20Vercel%20link%20above%20and%20then%20just%20use%20it.%20Below%20there%20is%20an%20example%20of%20how%20to%20use%20this%20API.&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FXorizn%2FXorizn%2Fmain%2Fimage%2Fvercel.svg&name=1&owner=1&pattern=Formal%20Invitation&pulls=1&stargazers=1&theme=Light" width=400 />
 </div>
 
 ---

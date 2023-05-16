@@ -4,8 +4,12 @@ declare function textpro(
   url: string,
   text: string[]
 ): Promise<{
-  image: string;
-  image_code: string;
+  developer: string,
+  status: boolean,
+  result: {
+    image: string,
+    image_code: string,
+  }
 }>;
 
 declare function post(

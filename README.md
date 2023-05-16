@@ -36,6 +36,7 @@ Available methods:
 - [Random](#random): This API searches for data from a random website and converts it into a JSON format that can be accessed online or offline. An example of this would be using the API to search for images from the website Waifu Pics.
 - [Stalker](#stalk): Get social media information from the person you are looking for, but please use it wisely and do not harm others. This stalking tool has various features, such as Instagram and GitHub, and will be further developed.
 - [Anime](#anime): This function is useful for finding the anime you are looking for. The API is sourced from the website MyAnimeList. This feature is great for people who are new to anime or are fans of anime culture.
+- [TextPro](#text-pro): To create image text.
 
 ---
 ## Downloads
@@ -614,6 +615,27 @@ console.log(res);
 ```
 ---
 
+## Text Pro
+
+```js
+import { textpro } from 'scraper-jsc'
+
+//if 2 text input: param text = ['text', 'text']
+const res = await textpro("https://textpro.me/3d-cartoon-text-effect-generator-online-1123.html", ['tes']);
+console.log(res);
+
+/*
+Results:
+{
+  developer: '@Xorizn',
+  status: true,
+  result: {
+    image: 'https://textpro.me/images/user_image/2023/05/64630cca93c19.jpg',
+    image_code: '64630cca93c19.jpg'
+  }
+}
+ */
+```
 <div align="center">
 
 # Create By ✨

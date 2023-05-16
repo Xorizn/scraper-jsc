@@ -94,6 +94,7 @@ var res = await downloads.Ytv(url_youtube); //to download youtube video
 
 console.log(res)
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## News
 Scraper news websites, like CNBC and CNN, are online platforms that aggregate news content from various sources to provide users with a comprehensive view of the news. These websites typically use software programs to automatically gather articles and news stories from a range of sources, including other news websites, wire services, and social media platforms. They then present this content to users in a user-friendly format that makes it easy to browse and navigate. While scraper news websites can provide users with access to a broad range of news content quickly, they may also raise concerns about the accuracy and reliability of the information they provide. It's important for users to be discerning when using scraper news websites and to verify the accuracy of the information they find.
@@ -181,6 +182,7 @@ var res = await news.TixID();
 
 console.log(res)
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## Search
 A scraper website search is a type of search engine that operates by automatically gathering information from other websites, typically without permission. These scraper websites use software programs to extract data from other websites and compile it into a searchable database. While scraper websites can provide users with access to a large amount of information quickly, they can also raise ethical and legal concerns, as they may be infringing on the intellectual property rights of other websites and their owners. In some cases, scraper websites may also misrepresent the information they gather, leading to inaccuracies and errors in search results.
@@ -269,6 +271,7 @@ var res = await search.YtSearch(search);
 
 console.log(res)
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## Islamic
 
@@ -350,6 +353,7 @@ console.log(res);
   }
 }*/
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## Images
 A scraper image downloads tool is a program that can automatically download images from various websites, similar to the functionality of Pinterest. This tool can be used to collect images for personal or professional use, such as for inspiration, design projects, or social media content creation.
@@ -410,6 +414,7 @@ var res = await images.WallpaperFlare('anime')
 
 console.log(res)
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## Random
 This API searches for data from a random website and converts it into a JSON format that can be accessed online or offline. An example of this would be using the API to search for images from the website Waifu Pics.
@@ -484,6 +489,7 @@ var res = await random.QuotesAnime();
 
 console.log(res)
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## Stalk
 Get social media information from the person you are looking for, but please use it wisely and do not harm others. This stalking tool has various features, such as Instagram and GitHub, and will be further developed.
@@ -554,6 +560,7 @@ var res = await stalk.GithubRepo("username")
 
 console.log(res)
 ```
+#### [Back-To-Usage](#usage)
 ---
 ## Anime
 This function is useful for finding the anime you are looking for. The API is sourced from the website MyAnimeList. This feature is great for people who are new to anime or are fans of anime culture.
@@ -613,6 +620,7 @@ var res = await anime.MalSearchManga('naruto');
 
 console.log(res);
 ```
+#### [Back-To-Usage](#usage)
 ---
 
 ## Text Pro
@@ -636,6 +644,7 @@ Results:
 }
  */
 ```
+#### [Back-To-Top](#)
 <div align="center">
 
 # Create By ✨

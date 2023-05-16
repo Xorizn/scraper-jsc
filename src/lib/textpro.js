@@ -71,7 +71,11 @@ function textpro(url, text) {
           image: "https://textpro.me" + data.fullsize_image,
           image_code: data.image_code,
         };
-        resolve(hasil);
+        resolve({
+          developer: "@Xorizn",
+          status: true,
+          result: hasil
+        });
       })
       .catch((er) => {
         reject(er);
